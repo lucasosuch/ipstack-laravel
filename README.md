@@ -17,7 +17,7 @@ Laravel uygulamalarında IPStack API'yi kullanmak için bir paket.
 Install location using `composer require`:
 
 ```bash
-composer require skapel/ipstack-laravel
+composer require skapelapp/ipstack-laravel
 ```
 
 ## Kullanım
@@ -27,7 +27,7 @@ composer require skapel/ipstack-laravel
 ```php
 'providers' => [
     // ...
-    Skapel\IPStackLaravel\IPStackServiceProvider::class,
+    Skapelapp\IPStackLaravel\IPStackServiceProvider::class,
 ],
 ```
 
@@ -36,7 +36,7 @@ composer require skapel/ipstack-laravel
 ```php
 'aliases' => [
     // ...
-    'IPStack' => Skapel\IPStackLaravel\Facades\IPStackFacade::class,
+    'IPStack' => Skapelapp\IPStackLaravel\Facades\IPStackFacade::class,
 ],
 ```
 
