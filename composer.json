@@ -33,9 +33,17 @@
         "php": ">=8.0",
         "laravel/framework": "^10.0"
     },
-    "providers": [
-        "Skapelapp\\IpstackLaravel\\IpstackLaravelServiceProvider"
-    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skapelapp\\IpstackLaravel\\IpstackLaravelServiceProvider"
+            ],
+            "aliases": {
+                "Location": "Skapelapp\\IpstackLaravel\\Facades\\IPStackFacade"
+            }
+        }
+    },
+
     "repositories": [
         {
             "type": "vcs",
