@@ -30,7 +30,8 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.0",
+        "skapelapp/ipstack-laravel": "1.0.0"
     },
     "providers": [
         "Skapelapp\\IpstackLaravel\\IpstackLaravelServiceProvider"
