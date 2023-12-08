@@ -17,7 +17,7 @@ Laravel uygulamalarında IPStack API'yi kullanmak için bir paket.
 Install location using `composer require`:
 
 ```bash
-composer require skapelapp/ipstack-laravel
+composer require skapelapp/ipstack-laravel:dev-main
 ```
 
 ## Kullanım
