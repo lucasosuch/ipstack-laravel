@@ -28,9 +28,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "skapelapp/ipstack-laravel": "*",
-        "php": "^8.0",
-        "laravel/framework": "^10.0"
+        "skapelapp/ipstack-laravel": "*"
     },
     "providers": [
         "Skapelapp\\IpstackLaravel\\IpstackLaravelServiceProvider"
