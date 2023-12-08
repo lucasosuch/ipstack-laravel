@@ -20,12 +20,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Skapelapp\\IpstackLaravel\\": "src/"
+            "Skapelapp\\IPStackLaravel\\": "src/"
         }
     },
     "autoload-dev" : {
         "psr-4" : {
-            "Skapelapp\\IpstackLaravel\\Tests\\" : "tests"
+            "Skapelapp\\IPStackLaravel\\Tests\\" : "tests"
         }
     },
     "minimum-stability": "stable",
@@ -36,10 +36,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Skapelapp\\IpstackLaravel\\IpstackLaravelServiceProvider"
+                "Skapelapp\\IPStackLaravel\\IPStackLaravelServiceProvider"
             ],
             "aliases": {
-                "Location": "Skapelapp\\IpstackLaravel\\Facades\\IPStackFacade"
+                "Location": "Skapelapp\\IPStackLaravel\\Facades\\IPStackFacade"
             }
         }
     },
