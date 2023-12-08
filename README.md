@@ -74,7 +74,7 @@ $ipstack = new IPStack($apiKey);
 $ipInfo = $ipstack->getInfo();
 
 // Make use of the returned information
-dd($ipInfo);
+// dd($ipInfo);
 ```
 
 ## Testing
