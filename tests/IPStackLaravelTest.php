@@ -4,7 +4,7 @@ namespace Tests;
 
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase;
-use Skapelapp\IPStackLaravel\Facades\IPStackServiceProvider;
+use Skapelapp\IPStackLaravel\Facades\IPStackLaravelServiceProvider;
 
 class IPStackLaravelTest extends TestCase
 {
