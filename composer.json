@@ -28,7 +28,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "skapelapp/ipstack-laravel": "dev",
+        "skapelapp/ipstack-laravel": "*",
         "php": "^8.0",
         "laravel/framework": "^10.0"
     },
