@@ -4,7 +4,7 @@ namespace Skapelapp\IPStackLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class IPStackServiceProvider extends ServiceProvider
+class IPStackLaravelServiceProvider extends ServiceProvider
 {
     public function register()
     {
