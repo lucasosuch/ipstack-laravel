@@ -10,7 +10,7 @@ class IPStackLaravelTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
-        return [IPStackServiceProvider::class];
+        return [IPStackLaravelServiceProvider::class];
     }
 
     protected function getPackageAliases($app)
