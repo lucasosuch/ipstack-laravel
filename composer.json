@@ -20,7 +20,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Skapelapp\\IpstackLaravel\\": "src"
+            "Skapelapp\\IpstackLaravel\\": "src/"
         }
     },
     "autoload-dev" : {
